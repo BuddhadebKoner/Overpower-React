@@ -1,0 +1,26 @@
+.Todoheading {
+    font-weight: 900;
+    font-size: 45px;
+    margin: 10px;
+}
+body{
+    width: 100vw;
+}
+
+input {
+    width: 90%;
+    height: 100%;
+}
+
+.row {
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.AddTodoSec {
+    margin: 30px;
+}
+.btn{
+    width: 100%;
+    width: 100%;
+}
