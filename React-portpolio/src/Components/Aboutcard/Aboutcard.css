@@ -1,0 +1,91 @@
+.about-container-fullbox{
+  width: 100vw;
+  height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card {
+  margin-top: 20px;
+  width: 500px;
+  background-color: transparent;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 2px 5px rgba(0, 0, 0, 0.05), 0px 8px 40px rgba(0, 0, 0, 0.04);
+  padding: 16px;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.about-heading {
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.about-card p.description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  height: 50px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.about-card.expanded p.description {
+  height: auto;
+}
+
+.about-card button {
+  margin-top: 0px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #ff5f5f;
+}
+
+.link-icons {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.about-media-links {
+  margin-top: 10px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.about-media-links a {
+  color: #BDBDBD;
+}
+
+.about-media-links a:hover {
+  color: #a3a3a3;
+}
+
+.media-icons-links {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 12px;
+}
+
+.media-icons-links>a>img {
+  margin-right: 15px;
+  width: 22px;
+}
+
+.about-tags {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  color: #9e9e9e;
+  font-size: 12px;
+}
+
+.about-tags>p {
+  background-color: #f8f8f9;
+  padding: 5px;
+  border-radius: 5px;
+}

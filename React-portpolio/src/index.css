@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(/public/font/Nunito-VariableFont_wght.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    cursor: pointer;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/* Track when scrollbar is active (scrolling) */
+::-webkit-scrollbar-track-piece:end {
+    background-color: #111;
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    background: #333;
+}
+
+.margin-top{
+    margin: 20px;
+}
+
+

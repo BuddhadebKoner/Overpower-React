@@ -1,0 +1,75 @@
+.resume-main-container {
+    width: 100vw;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-container {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    width: 700px;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 2px 5px rgba(0, 0, 0, 0.05), 0px 8px 40px rgba(0, 0, 0, 0.04);
+    padding: 50px;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.resume-main-container {
+    background-color: transparent;
+}
+
+.header-section {
+    text-align: center;
+}
+
+.name {
+    color: #333; 
+    font-size: 2.5rem; 
+    margin-bottom: 5px;
+}
+
+.job-title {
+    color: #666; /* Slightly lighter text color */
+    font-size: 1.2rem; /* Smaller font size */
+}
+
+.section-title {
+    color: #333; /* Dark text color */
+    font-size: 1.5rem; /* Medium font size */
+    margin-bottom: 10px;
+}
+
+.education-item,
+.experience-item,
+.skill-item,
+.contact-item {
+    color: #555; /* Slightly darker text color */
+    font-size: 1.1rem; /* Medium font size */
+}
+
+.responsibilities-title {
+    color: #333; /* Dark text color */
+    font-weight: bold; /* Bold font weight */
+    margin-top: 15px; /* Add space above */
+}
+
+.responsibility-item {
+    color: #555; /* Slightly darker text color */
+    font-size: 1rem; /* Small font size */
+    margin-left: 20px; /* Indentation for responsibilities */
+}
+
+.contact-item a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-item a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

@@ -1,0 +1,27 @@
+.profile-photobox {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    color: black;
+}
+
+.profile-photobox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-name{
+    margin-left: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+.profile-name p{
+    color: #7f7f7f;
+}
+
+.profile-name > *{
+    margin: 7px 0px 7px 0;
+}

@@ -1,0 +1,122 @@
+/* Reset all margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define color constants */
+:root {
+  --primary-1: #10002b;
+  --primary-2: #240046;
+  --primary-3: #3c096c;
+  --primary-4: #5a189a;
+  --primary-5: #7b2cbf;
+  --primary-6: #9d4edd;
+  --primary-7: #c77dff;
+  --primary-8: #e0aaff;
+
+  --primary-9: #009ff1;
+  --primary-10:#00b6f6;
+
+  /* Additional Frequent Colors */
+  --secondary-1: #6c757d;
+  --success: #28a745;    
+  --danger: #dc3545;     
+  --warning: #ffc107;    
+  --info: #17a2b8;       
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+
+body{
+  background-color: var(--primary-1);
+  color: var(--light);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Reset font styles */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Reset lists */
+ul,
+ol {
+  list-style: none;
+}
+
+
+/* Reset button styles */
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* Reset anchor tag styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Border Width Classes */
+.b-1 {
+  border-width: 1px;
+}
+
+.b-2 {
+  border-width: 2px;
+}
+
+/* Margin Top Classes */
+.m-top {
+  margin-top: 10px;
+}
+
+.m-top {
+  margin-top: 20px;
+}
+
+
+/* Flex Container */
+.flex {
+  display: flex;
+}
+
+/* Flex Direction - Row */
+.f-row {
+  flex-direction: row;
+}
+
+/* Flex Direction - Column */
+.f-column {
+  flex-direction: column;
+}
+
+/* Justify Content - Center */
+.justify {
+  justify-content: center;
+}
+
+/* Align Items - Center */
+.align {
+  align-items: center;
+}
