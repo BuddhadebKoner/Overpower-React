@@ -9,7 +9,7 @@ export default function Navbar() {
                 exact
                 to="/"
                 className={({ isActive }) =>
-                    `${isActive ? "active-link" : ""}`
+                    `${isActive ? "active-link navLinks" : "navLinks"}`
                 }
             >
                 Make Card
@@ -18,7 +18,7 @@ export default function Navbar() {
             <NavLink
                 to="/about"
                 className={({ isActive }) =>
-                    `${isActive ? "active-link" : ""}`
+                    `${isActive ? "active-link navLinks" : "navLinks"}`
                 }
             >
                 About
@@ -27,7 +27,7 @@ export default function Navbar() {
             <NavLink
                 to="/contribute"
                 className={({ isActive }) =>
-                    `${isActive ? "active-link" : ""}`
+                    `${isActive ? "active-link navLinks" : "navLinks"}`
                 }
             >
                 Contribute
