@@ -1,3 +1,50 @@
+# React App Deployment with GitHub Pages
+
+This guide will walk you through the steps to deploy your React app using GitHub Pages.
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
+
+## Steps
+
+1. Install the `gh-pages` package by running the following command in your terminal:
+
+  ```bash
+  npm install gh-pages --save-dev
+  ```
+
+2. Open your `package.json` file and add the following lines before the `"build"` script:
+
+  ```json
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+  ```
+
+3. Open your `vite.config.js` file and add the following line before the `plugins` array:
+
+  ```javascript
+  base: "/YOUR_REPOSITORY_NAME"
+  ```
+
+  Replace `YOUR_REPOSITORY_NAME` with the name of your GitHub repository.
+
+4. In your terminal, run the following command:
+
+  ```bash
+  npm run deploy
+  ```
+
+  This will create a `gh-pages` branch in your repository and deploy your app. You can check the deployment under **Settings -> Pages** in your GitHub repository.
+
+  **Note:** To update your app deployment, simply run the `npm run deploy` command again.
+
+Congratulations! Your React app is now deployed using GitHub Pages.
+
+
 # React Fiber Architecture
 
 ## Introduction

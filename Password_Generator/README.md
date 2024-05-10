@@ -3,7 +3,7 @@
 #### Colne This Project And Contribute To This Project 
 
 ```bash
-git clone
+git clone https://github.com/jeetkoner/password_generator.git
 ``` 
 #### Install Tailwindcss
 [Tailwind Css](https://tailwindcss.com/docs/guides/vite)
