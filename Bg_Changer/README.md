@@ -32,3 +32,9 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
+
+### test the app using this link : 
+[Bg Changer](https://jeetkoner.github.io/bg_changer/)
+
+
+![alt text](<public/final_product.png>)
