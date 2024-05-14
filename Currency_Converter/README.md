@@ -12,6 +12,6 @@ git clone
 <img src="./public/BluePrint.png">
 
 #### Final UI Output
-##### test this app : [Open](https://jeetkoner.github.io/password_generator/)
+##### test this app : [Open]()
 
 ### Final Result :
