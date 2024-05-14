@@ -1,4 +1,4 @@
-# React App Deployment with GitHub Pages
+# React App Deployment with GitHub Pages ------------- >
 
 This guide will walk you through the steps to deploy your React app using GitHub Pages.
 
@@ -45,7 +45,7 @@ Before you begin, make sure you have the following installed:
 Congratulations! Your React app is now deployed using GitHub Pages.
 
 
-# React Fiber Architecture
+# React Fiber Architecture ---------- >
 
 ## Introduction
 
