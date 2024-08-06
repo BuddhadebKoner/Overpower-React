@@ -1,0 +1,33 @@
+import React, { useContext } from 'react';
+import { ChatContext } from './ChatContext';
+import '../styles/Chatbox.css';
+import data from '../assets/data';
+
+export default function Input() {
+  const { inputValue, setInputValue, sendApiRequest } = useContext(ChatContext);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (inputValue.trim()) {
+      sendApiRequest(inputValue.trim());
+      setInputValue('');
+    }
+  };
+
+  return (
+    <div className="input_section_container">
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="What's on your mind"
+          className='input_prompt'
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+        />
+        <button type="submit" className='prompt_submit'>
+          <img src={data.uparrow} alt="" />
+        </button>
+      </form>
+    </div>
+  );
+}
